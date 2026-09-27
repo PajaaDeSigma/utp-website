@@ -403,9 +403,7 @@ export default function Home() {
         </div>
 
         <p style={{ marginTop: 16, fontSize: 13, color: "var(--ink-500)" }}>
-          Catatan: pada hosting serverless seperti Vercel, penyimpanan berkas bersifat sementara.
-          Untuk penyimpanan permanen di produksi, hubungkan layanan seperti Vercel Blob atau storage eksternal
-          (lihat README proyek).
+          Catatan: Berkas yang diunggah akan disimpan di server sementara. Jika server dimatikan atau di-restart, berkas akan hilang. Pastikan Anda menyimpan salinan berkas di tempat lain.
         </p>
       </section>
 
